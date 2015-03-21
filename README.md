@@ -1,4 +1,4 @@
-Role Name
+system-timezone
 =========
 
 Ansible role for setting timezone and localtime.

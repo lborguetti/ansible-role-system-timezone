@@ -1,0 +1,10 @@
+---
+- name: Updating localtime
+  command: /bin/cp /usr/share/zoneinfo/{{ system-timezone_location }} /etc/localtime
+  tags: system-timezone
+
+- name: Updating timezone
+  template: src=default-timezone.j2 dest=/etc/timezone
+  notify: Updating tzdata
+  tags: system-timezone
+

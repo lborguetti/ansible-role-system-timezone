@@ -1,6 +1,6 @@
 ---
 - name: Updating localtime
-  command: /bin/cp /usr/share/zoneinfo/{{ timezone_location }} /etc/localtime
+  command: /bin/cp /usr/share/zoneinfo/{{ system_timezone_location }} /etc/localtime
   tags: timezone
 
 - name: Updating timezone

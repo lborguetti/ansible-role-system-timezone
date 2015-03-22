@@ -29,7 +29,7 @@ Example Playbook
 
     - hosts: servers
       roles:
-         - { role: lborguetti.timezone, timezone_location: "America/Sao_Paulo" }
+         - { role: lborguetti.system-timezone, system_timezone_location: "America/Sao_Paulo" }
 
 License
 -------

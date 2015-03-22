@@ -13,7 +13,7 @@ Nothing.
 Role Variables
 --------------
 
-        system_timezone_location: America/Sao_Paulo
+        timezone_location: America/Sao_Paulo
 
 This variable define your timezone and localtime.
 
@@ -29,7 +29,7 @@ Example Playbook
 
     - hosts: servers
       roles:
-         - { role: lborguetti.system-timezone, system_timezone_location: "America/Sao_Paulo" }
+         - { role: lborguetti.timezone, timezone_location: "America/Sao_Paulo" }
 
 License
 -------

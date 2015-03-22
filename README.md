@@ -1,6 +1,8 @@
 system-timezone
 =========
 
+[![Build Status](https://travis-ci.org/lborguetti/ansible-role-system-timezone.svg?branch=master)](https://travis-ci.org/lborguetti/ansible-role-system-timezone)
+
 Ansible role for setting timezone and localtime.
 
 Requirements

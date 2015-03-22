@@ -1,4 +1,4 @@
 ---
 - name: Updating tzdata
   command: /usr/sbin/dpkg-reconfigure --frontend noninteractive tzdata
-  tags: system-timezone
+  tags: timezone

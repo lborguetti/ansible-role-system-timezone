@@ -1,4 +1,4 @@
-system-timezone
+timezone
 =========
 
 [![Build Status](https://travis-ci.org/lborguetti/ansible-role-system-timezone.svg?branch=master)](https://travis-ci.org/lborguetti/ansible-role-system-timezone)
